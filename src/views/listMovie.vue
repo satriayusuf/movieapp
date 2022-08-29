@@ -7,7 +7,7 @@
       v-model="searchValue"
       type="text"
       placeholder="Search Popular Movie"
-      class="mt-4 input input-bordered w-full input-ghost"
+      class="mt-4 input input-bordered input-ghost w-full"
       @keyup.enter="submitSearch()"
     />
   </div>
