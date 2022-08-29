@@ -1,7 +1,7 @@
 <template>
   <div class="block lg:flex">
     <div class="lg:flex-initial lg:w-3/6">
-      <div class="text-5xl font-bold text-white">
+      <div class="text-3xl md:text-5xl font-bold text-white">
         <span class="text-yellow-500"> The First </span>
         <span class="mt-2">Online</span>
         <div class="mt-2">List Popular Movie</div>
@@ -22,7 +22,7 @@
 import { ref } from "vue";
 
 const descHeader = ref([
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat impedit omnis magnam itaque possimus illo corrupti iusto velincidunt magni iste repellat reprehenderit debitis excepturi, estmolestias nam culpa.",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat impedit omnis magnam itaque possimus illo corrupti iusto velincidunt magni iste repellat reprehenderit debitis excepturi, estmolestias nam culpa.",
+  "Movie App is the first best popular movie search platform in Indonesia",
+  "With the movie App, it is hoped that users can use it as best they can to find the best popular movies",
 ]);
 </script>
