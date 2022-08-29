@@ -1,15 +1,17 @@
 <template>
   <div>
-    <div class="flex gap-6">
-      <div class="flex-initial w-5/12 h-screen">
+    <div class="block md:flex gap-6">
+      <div
+        class="flex md:block justify-center md:justify-start md:flex-initial w-full md:w-5/12 md:h-screen"
+      >
         <img
           :src="'https://image.tmdb.org/t/p/w500/' + detailMovie.poster_path"
-          class="rounded w-full"
+          class="rounded w-3/4 md:w-full"
           alt=""
         />
       </div>
-      <div class="flex-initial w-7/12">
-        <div class="flex gap-4">
+      <div class="mt-10 md:mt-0 md:flex-initial md:w-7/12">
+        <div class="flex justify-center md:justify-start gap-4">
           <div>
             <a
               v-if="detailMovie.homepage"
@@ -76,7 +78,7 @@
             Rating Now
           </button>
         </div>
-        <div class="mt-8 text-white text-3xl font-bold">
+        <div class="mt-4 md:mt-8 text-white text-3xl font-bold">
           {{ detailMovie.title }}
         </div>
         <div class="mt-5 text-sm text-white">
