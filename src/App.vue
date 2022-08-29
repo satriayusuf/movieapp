@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full max-h-max bg-slate-800 px-20 md:px-28 py-12">
+  <div class="h-full max-h-max bg-slate-800 px-10 md:px-28 py-12">
     <navbar class="mb-10" />
     <router-view />
   </div>
